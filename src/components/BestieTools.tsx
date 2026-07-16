@@ -27,8 +27,7 @@ export default function BestieTools() {
     setIsGenerating(true);
     setResult("");
     try {
-      const values = { topic: inputValue, prompt: inputValue };
-      const res = await getBestieReply(tool.id, values);
+     const res = await getBestieReply(tool.id, [inputValue]);
       setResult(res);
     } catch (err) {
       console.error(err);

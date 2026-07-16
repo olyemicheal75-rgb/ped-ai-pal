@@ -13,7 +13,7 @@ import {
   MusicNote,
   Smiley,
 } from "@phosphor-icons/react";
-import BestieChat from "./components/BestieChat";
+import { BestieChat } from "./components/BestieChat";
 import BestieTools from "./components/BestieTools";
 
 const GREETINGS = [
