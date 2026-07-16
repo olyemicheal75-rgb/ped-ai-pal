@@ -82,5 +82,4 @@ export function BestieChat() {
   );
 }
 
-export { BestieChat as default };
 export default BestieChat;
