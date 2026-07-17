@@ -81,5 +81,5 @@ export function BestieChat() {
     </div>
   );
 }
-
+  
 export default BestieChat;
